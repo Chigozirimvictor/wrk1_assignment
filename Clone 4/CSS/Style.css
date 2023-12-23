@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.naavbar{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    margin: 4%;
+    border: 2px solid;
+    border-color: blue;
+    text-decoration: none;
+}
+.naavbar:hover{
+    color: aqua;
+    background-color: orange;
+    transition-delay: 4s;
+    animation-delay: 5s;
+    animation-duration: 4s;
+}
